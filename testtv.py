@@ -33,3 +33,6 @@ class TestTV:
         self.tv1.set_volume_level(3)
         self.tv2.set_channel(3)
         self.tv2.set_volume_level(2)
+
+        print("\ntv1's channel is", self.tv1.get_channel(), "and volume level is", self.tv1.get_volume_level())
+        print("\ntv2's channel is", self.tv2.get_channel(), "and volume level is", self.tv2.get_volume_level())
