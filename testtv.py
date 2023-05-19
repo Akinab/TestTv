@@ -36,3 +36,8 @@ class TestTV:
 
         print("\ntv1's channel is", self.tv1.get_channel(), "and volume level is", self.tv1.get_volume_level())
         print("\ntv2's channel is", self.tv2.get_channel(), "and volume level is", self.tv2.get_volume_level())
+
+
+# Create an instance of TestTV and run the program
+test_tv = TestTV()
+test_tv.run()
