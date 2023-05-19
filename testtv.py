@@ -12,3 +12,7 @@ class TV:
 
     def get_channel(self):
         return self.channel
+    
+    def set_channel(self, channel):
+        self.channel = channel
+
