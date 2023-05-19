@@ -27,3 +27,9 @@ class TestTV:
     def __init__(self):
         self.tv1 = TV()
         self.tv2 = TV()
+
+    def run(self):
+        self.tv1.set_channel(30)
+        self.tv1.set_volume_level(3)
+        self.tv2.set_channel(3)
+        self.tv2.set_volume_level(2)
