@@ -22,3 +22,5 @@ class TV:
     def set_volume_level(self, volume_level):
         self.volume_level = volume_level
 
+
+class TestTV:
