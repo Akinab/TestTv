@@ -24,3 +24,6 @@ class TV:
 
 
 class TestTV:
+    def __init__(self):
+        self.tv1 = TV()
+        self.tv2 = TV()
